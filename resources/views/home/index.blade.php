@@ -189,7 +189,7 @@
                                 <!-- Thumb -->
                                 <div class="service_thumb">
                                     <div class="image-hover-effect">
-                                        <img src="asset('img/service-img/1.jpg" alt="">
+                                        <img src="asset('theme/img/service-img/1.jpg') }}" alt="">
                                     </div>
                                 </div>
                                 <!-- About Text -->
@@ -207,7 +207,7 @@
                                 <!-- Thumb -->
                                 <div class="service_thumb">
                                     <div class="image-hover-effect">
-                                        <img src="img/service-img/2.jpg" alt="">
+                                        <img src="asset('theme/img/service-img/2.jpg') }}" alt="">
                                     </div>
                                 </div>
                                 <!-- About Text -->
@@ -224,7 +224,7 @@
                                 <!-- Thumb -->
                                 <div class="service_thumb">
                                     <div class="image-hover-effect">
-                                        <img src="img/service-img/3.jpg" alt="">
+                                        <img src="asset('img/service-img/3.jpg') }}" alt="">
                                     </div>
                                 </div>
                                 <!-- About Text -->
@@ -241,7 +241,7 @@
                                 <!-- Thumb -->
                                 <div class="service_thumb">
                                     <div class="image-hover-effect">
-                                        <img src="img/service-img/4.jpg" alt="">
+                                        <img src="asset('img/service-img/4.jpg') }}" alt="">
                                     </div>
                                 </div>
                                 <!-- About Text -->
@@ -302,7 +302,7 @@
                                 <!-- Thumb -->
                                 <div class="what_we_thumb">
                                     <div class="image-hover-effect">
-                                        <img src="img/bg-img/bg-6.jpg" alt="">
+                                        <img src=" asset('theme/img/bg-img/bg-6.jpg') }}" alt="">
                                     </div>
                                 </div>
                                 <div class="what_we_text">
@@ -316,7 +316,7 @@
                                 <!-- Thumb -->
                                 <div class="what_we_thumb">
                                     <div class="image-hover-effect">
-                                        <img src="img/bg-img/bg-7.jpg" alt="">
+                                        <img src="asset('theme/img/bg-img/bg-7.jpg') }}" alt="">
                                     </div>
                                 </div>
                                 <div class="what_we_text">
@@ -330,7 +330,7 @@
                                 <!-- Thumb -->
                                 <div class="what_we_thumb">
                                     <div class="image-hover-effect">
-                                        <img src="img/bg-img/bg-15.jpg" alt="">
+                                        <img src="asset('theme/img/bg-img/bg-15.jpg') }}" alt="">
                                     </div>
                                 </div>
                                 <div class="what_we_text">
@@ -344,7 +344,7 @@
                                 <!-- Thumb -->
                                 <div class="what_we_thumb">
                                     <div class="image-hover-effect">
-                                        <img src="img/bg-img/bg-16.jpg" alt="">
+                                        <img src="asset('theme/img/bg-img/bg-16.jpg') }}" alt="">
                                     </div>
                                 </div>
                                 <div class="what_we_text">
@@ -408,7 +408,7 @@
                                                 <!-- Thumb -->
                                                 <div class="tab-content-thumb text-center">
                                                     <div class="image-hover-effect ">
-                                                        <img src="img/working-img/1.jpg" alt="">
+                                                        <img src="asset('theme/img/working-img/1.jpg') }}" alt="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -440,7 +440,7 @@
                                                 <!-- Tab Content Thumb -->
                                                 <div class="tab-content-thumb text-center">
                                                     <div class="image-hover-effect">
-                                                        <img src="img/working-img/2.jpg" alt="">
+                                                        <img src="asset('theme/img/working-img/2.jpg') }}" alt="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -472,7 +472,7 @@
                                                 <!-- Tab Content Thumb -->
                                                 <div class="tab-content-thumb text-center">
                                                     <div class="image-hover-effect">
-                                                        <img src="img/working-img/3.jpg" alt="">
+                                                        <img src="asset('theme/img/working-img/3.jpg') }}" alt="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -502,7 +502,7 @@
             <!-- ***** Our Working Area End ***** -->
         
             <!-- ***** Video Area Start ***** -->
-            <section class="video_area clearfix bg-overlay bg-img" style="background-image: url(img/bg-img/bg-2.jpg)" data-jarallax-video="https://youtu.be/ByOPXIHaVfQ">
+            <section class="video_area clearfix bg-overlay bg-img" style="background-image: url(theme/img/bg-img/bg-2.jpg)" data-jarallax-video="https://youtu.be/ByOPXIHaVfQ">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <!-- Heading Text -->
@@ -637,7 +637,7 @@
                         <div class="col-12 col-md-6 col-lg-3">
                             <!-- Single gallery Item -->
                             <div class="portfolio_gallery_iteam">
-                                <img src="img/project-img/pro-1.jpg" alt="">
+                                <img src="{{ asset('theme/img/project-img/pro-1.jpg') }}" alt="">
                                 <!-- single Content-->
                                 <div class="single_content">
                                     <div class="special-table">
@@ -645,7 +645,7 @@
                                             <!-- Project Title-->
                                             <div class="project_title text-center">
                                                 <div class="image-popups">
-                                                    <a href="img/project-img/pro-1.jpg" data-effect="mfp-zoom-in"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                                                    <a href=" asset('theme/img/project-img/pro-1.jpg') }}" data-effect="mfp-zoom-in"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
                                                 </div>
                                                 <a href="#">View project<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
                                             </div>
@@ -665,7 +665,7 @@
                                             <!-- Project Title-->
                                             <div class="project_title text-center">
                                                 <div class="image-popups">
-                                                    <a href="img/project-img/pro-2.jpg" data-effect="mfp-zoom-in"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                                                    <a href="asset('theme/img/project-img/pro-2.jpg') }}" data-effect="mfp-zoom-in"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
                                                 </div>
                                                 <a href="#">View project<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
                                             </div>
