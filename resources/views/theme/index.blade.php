@@ -19,7 +19,7 @@
   <link href="{{ asset('theme/css/plugins/responsive.css') }}" rel="stylesheet">
 
 
-	<title>Document</title>
+	<title>IGR Process</title>
 </head>
 <body>
 	  <!-- Preloader Start -->
