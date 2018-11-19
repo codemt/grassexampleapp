@@ -907,7 +907,7 @@
             <!-- ***** Pricing Table End ***** -->
         
             <!-- ***** Our Team Area Start ***** -->
-            <section class="our_team_area section_padding_150_100 clearfix" id="team">
+            {{-- <section class="our_team_area section_padding_150_100 clearfix" id="team">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
@@ -993,7 +993,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> --}}
             <!-- ***** Our Team Area End ***** -->
         
             <!-- ***** Clients Words Area Start ***** -->
@@ -1281,10 +1281,10 @@
             </section>
         
             <!-- Google Maps -->
-            <div id="googleMap">
+            {{-- <div id="googleMap">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94482.79615407129!2d-0.19818122000950858!3d51.51651560026987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C+UK!5e0!3m2!1sen!2sbd!4v1530334547227" allowfullscreen></iframe>
             </div>
-        
+         --}}
             <!-- ***** Contact Area End *****  -->
         
             <!-- ***** Bottom Footer Area Start *****  -->
@@ -1295,7 +1295,7 @@
                             <div class="footer_area">
                                 <!-- Footer Text -->
                                 <div class="copywrite_text text-center">
-                                    <p>Made With <i class="fa fa-heart"></i> by <a href="https://themeforest.net/user/designing-world/portfolio" target="_blank">Designing-World </a></p>
+                                    <p>Made With <i class="fa fa-heart"></i> by <a href="https://themeforest.net/user/designing-world/portfolio" target="_blank">CodeMT </a></p>
                                 </div>
                             </div>
                         </div>
