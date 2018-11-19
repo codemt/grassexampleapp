@@ -56,14 +56,14 @@
 								<ul id="nav">
 									<li><a href="#home">Home</a></li>
 									<li><a href="#faq">FAQ</a></li>
-									<li><a href="#service">Documents</a></li>
-									<li><a href="#price">Process</a></li>
-									<li><a href="#team">Registration Offices</a></li>
+									<li><a href="#documents">Documents</a></li>
+									<li><a href="#process">Process</a></li>
+									<li><a href="#offices">Registration Offices</a></li>
 									<li><a href="#contact">Contact</a></li>
 									
 								</ul>
 								<!-- Button -->
-								<a href="#" class="classy-btn">Sign Up</a>
+								{{-- <a href="#" class="classy-btn">Sign Up</a> --}}
 							</div>
 							<!-- Nav End -->
 						</div>

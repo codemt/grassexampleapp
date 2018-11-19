@@ -28,7 +28,7 @@
             <!-- ***** Wellcome Area End ***** -->
         
             <!-- ***** About Us Area Start ***** -->
-            <section class="about_us_area section_padding_150 clearfix" id="about">
+            {{-- <section class="about_us_area section_padding_150 clearfix" id="about">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
@@ -59,11 +59,11 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> --}}
             <!-- ***** About Us Area  End ***** -->
         
             <!-- ***** Feature Area Start ***** -->
-            <section class="feature_area section_padding_150_50 clearfix">
+            <section class="feature_area section_padding_150_50 clearfix" id="process">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-md-6 col-lg-4">
@@ -71,13 +71,15 @@
                             <div class="single_feature_content active wow fadeInUp" data-wow-delay="0.4s">
                                 <!-- Feature Text -->
                                 <div class="feature_text">
-                                    <h3>Branding</h3>
+                                    <h3>Step 1 : </h3>
                                     <!-- Icon -->
                                     <div class="feature_icon_text">
                                         <i class="fa fa-futbol-o" aria-hidden="true"></i>
                                     </div>
                                     <div class="line-2"></div>
-                                    <p>Understanding who you are and what you want is our strategy for your brand. We are always figuring out ways to capture your vision, so people can get on board.</p>
+                                    <p>You Call us. 
+                                        We get in-touch with you. 
+                                        We explain you the process.</p>
                                     <a href="#">read more</a>
                                 </div>
                             </div>
@@ -87,13 +89,13 @@
                             <div class="single_feature_content wow fadeInUp" data-wow-delay="0.6s">
                                 <!-- Feature Text -->
                                 <div class="feature_text">
-                                    <h3>Design</h3>
+                                    <h3>Step 2 : </h3>
                                     <!-- Icon -->
                                     <div class="feature_icon_text">
                                         <i class="fa fa-futbol-o" aria-hidden="true"></i>
                                     </div>
                                     <div class="line-2"></div>
-                                    <p>Understanding who you are and what you want is our strategy for your brand. We are always figuring out ways to capture your vision, so people can get on board.</p>
+                                    <p>We mail / Whatsapp you the Process & Documents which are required for the Registration.</p>
                                     <a href="#">read more</a>
                                 </div>
                             </div>
@@ -103,13 +105,13 @@
                             <div class="single_feature_content">
                                 <!-- Feature Text -->
                                 <div class="feature_text">
-                                    <h3>Development</h3>
+                                    <h3>Step 3 : </h3>
                                     <!-- Icon -->
                                     <div class="feature_icon_text">
                                         <i class="fa fa-futbol-o" aria-hidden="true"></i>
                                     </div>
                                     <div class="line-2"></div>
-                                    <p>Understanding who you are and what you want is our strategy for your brand. We are always figuring out ways to capture your vision, so people can get on board.</p>
+                                    <p>An appointment is fixed to collect the documents.</p>
                                     <a href="#">read more</a>
                                 </div>
                             </div>
@@ -119,13 +121,13 @@
                             <div class="single_feature_content">
                                 <!-- Feature Text -->
                                 <div class="feature_text">
-                                    <h3>Photography</h3>
+                                    <h3>Step 4 : </h3>
                                     <!-- Icon -->
                                     <div class="feature_icon_text">
                                         <i class="fa fa-futbol-o" aria-hidden="true"></i>
                                     </div>
                                     <div class="line-2"></div>
-                                    <p>Understanding who you are and what you want is our strategy for your brand. We are always figuring out ways to capture your vision, so people can get on board.</p>
+                                    <p>Our executive visit the designated venue on designated time to collect the set for registration.</p>
                                     <a href="#">read more</a>
                                 </div>
                             </div>
@@ -135,13 +137,13 @@
                             <div class="single_feature_content wow fadeInUp" data-wow-delay="1.2s">
                                 <!-- Feature Text -->
                                 <div class="feature_text">
-                                    <h3>Videography</h3>
+                                    <h3>Step 6 :</h3>
                                     <!-- Icon -->
                                     <div class="feature_icon_text">
                                         <i class="fa fa-futbol-o" aria-hidden="true"></i>
                                     </div>
                                     <div class="line-2"></div>
-                                    <p>Understanding who you are and what you want is our strategy for your brand. We are always figuring out ways to capture your vision, so people can get on board.</p>
+                                    <p>We collect the Service Charges, Money & Documents required for Registration..</p>
                                     <a href="#">read more</a>
                                 </div>
                             </div>
@@ -151,13 +153,13 @@
                             <div class="single_feature_content">
                                 <!-- Feature Text -->
                                 <div class="feature_text">
-                                    <h3>Social Strategy</h3>
+                                    <h3>Step 7 :</h3>
                                     <!-- Icon -->
                                     <div class="feature_icon_text">
                                         <i class="fa fa-futbol-o" aria-hidden="true"></i>
                                     </div>
                                     <div class="line-2"></div>
-                                    <p>Understanding who you are and what you want is our strategy for your brand. We are always figuring out ways to capture your vision, so people can get on board.</p>
+                                    <p>We provide you the acknowledgement receipt for the Documents & Money collected..</p>
                                     <a href="#">read more</a>
                                 </div>
                             </div>
@@ -168,7 +170,7 @@
             <!-- ***** Feature Area End ***** -->
         
             <!-- ***** Our Services Area Start ***** -->
-            <section class="our_service_area section_padding_150 clearfix" id="service">
+            {{-- <section class="our_service_area section_padding_150 clearfix" id="service">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-12">
@@ -224,7 +226,7 @@
                                 <!-- Thumb -->
                                 <div class="service_thumb">
                                     <div class="image-hover-effect">
-                                        <img src="asset('img/service-img/3.jpg') }}" alt="">
+                                        <img src="asset('theme/img/service-img/3.jpg') }}" alt="">
                                     </div>
                                 </div>
                                 <!-- About Text -->
@@ -241,7 +243,7 @@
                                 <!-- Thumb -->
                                 <div class="service_thumb">
                                     <div class="image-hover-effect">
-                                        <img src="asset('img/service-img/4.jpg') }}" alt="">
+                                        <img src="asset('theme/img/service-img/4.jpg') }}" alt="">
                                     </div>
                                 </div>
                                 <!-- About Text -->
@@ -263,11 +265,11 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> --}}
             <!-- ***** Our Services Area End ***** -->
         
             <!-- ***** Call To Action Area Start ***** -->
-            <section class="call_to_action_area section_padding_150 clearfix bg-img bg-overlay3 bg-fixed" style="background-image: url(img/bg-img/bg-5.jpg)">
+            {{-- <section class="call_to_action_area section_padding_150 clearfix bg-img bg-overlay3 bg-fixed" style="background-image: url(img/bg-img/bg-5.jpg)">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
@@ -279,11 +281,11 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> --}}
             <!-- ***** Call To Action Area End ***** -->
         
             <!-- ***** What We Do Area Start ***** -->
-            <section class="what_we_do_area section_padding_150 clearfix">
+            {{-- <section class="what_we_do_area section_padding_150 clearfix">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
@@ -364,19 +366,19 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> --}}
             <!-- ***** What We Do Area End ***** -->
         
             <!-- ***** Our Working Area Start ***** -->
-            <section class="our_working_area section_padding_0_150 clearfix">
+            <section class="our_working_area section_padding_0_150 clearfix" id="documents">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
                             <!-- Heading Text -->
                             <div class="section_heading">
-                                <h2>Our Working Process</h2>
+                                <h2>Required Documents</h2>
                                 <div class="line"></div>
-                                <p>We are committed to providing our customers with exceptional service while offering our employees the best training.</p>
+                                <p>All the following documents Original & Photocopy to be signed and stamped by the Banks authority in Original</p>
                             </div>
                         </div>
                     </div>
@@ -386,15 +388,15 @@
                             <!-- Nav Nav-tabs -->
                             <ul class="nav nav-tabs" id="myTab" role="tablist">
                                 <li class="nav-item">
-                                    <a class="nav-link" id="Wallet-tab" data-toggle="tab" href="#step-one" role="tab" aria-controls="step-one" aria-expanded="true"><i class="ti-desktop"></i>01. Initial</a>
+                                    <a class="nav-link" id="Wallet-tab" data-toggle="tab" href="#step-one" role="tab" aria-controls="step-one" aria-expanded="true"><i class="ti-desktop"></i>01.Lending Banks Name</a>
                                 </li>
                                 <!-- Nav Item -->
                                 <li class="nav-item">
-                                    <a class="nav-link" id="coin-tab" data-toggle="tab" href="#step-two" role="tab" aria-controls="step-two" aria-expanded="true"><i class="ti-menu"></i>02. Website</a>
+                                    <a class="nav-link" id="coin-tab" data-toggle="tab" href="#step-two" role="tab" aria-controls="step-two" aria-expanded="true"><i class="ti-menu"></i>02.Lending Banks Location</a>
                                 </li>
                                 <!-- Nav Item -->
                                 <li class="nav-item">
-                                    <a class="nav-link" id="buy-tab" data-toggle="tab" href="#step-three" role="tab" aria-controls="step-three" aria-expanded="true"><i class="ti-folder"></i>03. Work</a>
+                                    <a class="nav-link" id="buy-tab" data-toggle="tab" href="#step-three" role="tab" aria-controls="step-three" aria-expanded="true"><i class="ti-folder"></i>03.Lending Banks PAN Number</a>
                                 </li>
                             </ul>
                             <!-- Tab Content -->
@@ -405,25 +407,38 @@
                                         <div class="row align-items-center justify-content-center">
                                             <!-- Tab Content Text -->
                                             <div class="col-md-4">
-                                                <!-- Thumb -->
-                                                <div class="tab-content-thumb text-center">
-                                                    <div class="image-hover-effect ">
-                                                        <img src="asset('theme/img/working-img/1.jpg') }}" alt="">
-                                                    </div>
+                                                <!-- Tab Content Text -->
+                                                <div class="tab-content-text text-center">
+                                                    <h4>Required</h4>
+                                                    <p> 0.2% of the Loan Amount eSBTR / Stamp Papers / Franked for Memorandum of Deposit of Title Deeds with Bankers Stamp and Sign - Photocopy </p>
+                                                     <p>   Photograph of all the borrowers </p>
+                                                     <p>   Accepted Sanction Letter (photocopy) with Borrwers & Credit Managers Sign
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-md-4">
+                                                <!-- Tab Content Text -->
+                                                <div class="tab-content-text text-center">
+                                                    <h4>Required</h4>
+                                                    <p>All Borrowers PAN Card - Photocopy</p>
+                                                    <p> Latest Index - 2 - Photocopy
+                                                    </p>
+                                                    <p>Notice Of Intimation regarding Mortgage by way of Deposit of Title Deed with
+                                                        Rs. 100 Stamp Paper or Franking.
+                                                   
+                                                   </p>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <!-- Tab Content Text -->
                                                 <div class="tab-content-text text-center">
-                                                    <h4>01. Initial discussion</h4>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus, non suscipit arcu. Quisque aliquam posuere tortor.</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <!-- Tab Content Text -->
-                                                <div class="tab-content-text text-center">
-                                                    <h4>Great result</h4>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus, non suscipit arcu.</p>
+                                                    <h4>Required</h4>
+                                                    <p>Self Attested Identity proof of Banks Represantative signing the "Notice of Intimation"
+                                                    </p>
+                                                    <p> List of Documents Deposited - Photocopy</p>
+                                                    <p>Franking details letter from the Bank - Original</p>
+                                                    <p>The above information is necessary to do data entry for efiling of Notice of Intimation Format and other related documents</p>
                                                     <a class="#" href="#">Learn More</a>
                                                 </div>
                                             </div>
@@ -502,7 +517,7 @@
             <!-- ***** Our Working Area End ***** -->
         
             <!-- ***** Video Area Start ***** -->
-            <section class="video_area clearfix bg-overlay bg-img" style="background-image: url(theme/img/bg-img/bg-2.jpg)" data-jarallax-video="https://youtu.be/ByOPXIHaVfQ">
+            {{-- <section class="video_area clearfix bg-overlay bg-img" style="background-image: url(theme/img/bg-img/bg-2.jpg)" data-jarallax-video="https://youtu.be/ByOPXIHaVfQ">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <!-- Heading Text -->
@@ -514,7 +529,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> --}}
             <!-- ***** Video Area End ***** -->
         
             <!-- ***** Start faq Area ***** -->
@@ -582,7 +597,7 @@
             <!-- ***** Start faq Area ***** -->
         
             <!-- ***** Cool Fact Area Start ***** -->
-            <section class="cool_fact_area section_padding_100_50">
+            {{-- <section class="cool_fact_area section_padding_100_50">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-md-6 col-lg-3">
@@ -615,11 +630,11 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> --}}
             <!-- ***** Cool Fact Area End ***** -->
         
             <!-- ***** Project Area Start ***** -->
-            <section class="project_area section_padding_150 bg-img bg-fixed clearfix bg-overlay2" style="background-image: url(img/bg-img/bg-8.jpg);">
+            {{-- <section class="project_area section_padding_150 bg-img bg-fixed clearfix bg-overlay2" style="background-image: url(img/bg-img/bg-8.jpg);">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
@@ -657,7 +672,7 @@
                         <div class="col-12 col-md-6 col-lg-3">
                             <!-- Single gallery Item -->
                             <div class="portfolio_gallery_iteam">
-                                <img src="img/project-img/pro-2.jpg" alt="">
+                                <img src="{{ asset('theme/img/project-img/pro-2.jpg') }}" alt="">
                                 <!-- single Content-->
                                 <div class="single_content">
                                     <div class="special-table">
@@ -677,7 +692,7 @@
                         <div class="col-12 col-md-6 col-lg-3">
                             <!-- Single gallery Item -->
                             <div class="portfolio_gallery_iteam">
-                                <img src="img/project-img/pro-3.jpg" alt="">
+                                <img src="{{ asset('theme/img/project-img/pro-3.jpg') }}" alt="">
                                 <!-- single Content-->
                                 <div class="single_content">
                                     <div class="special-table">
@@ -705,7 +720,7 @@
                                             <!-- Project Title-->
                                             <div class="project_title text-center">
                                                 <div class="image-popups">
-                                                    <a href="img/project-img/pro-4.jpg" data-effect="mfp-zoom-in"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                                                    <a href="{{ asset('theme/img/project-img/pro-4.jpg') }}" data-effect="mfp-zoom-in"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
                                                 </div>
                                                 <a href="#">View project<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
                                             </div>
@@ -725,7 +740,7 @@
                                             <!-- Project Title-->
                                             <div class="project_title text-center">
                                                 <div class="image-popups">
-                                                    <a href="img/project-img/pro-5.jpg" data-effect="mfp-zoom-in"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                                                    <a href="{{ asset('theme/img/project-img/pro-5.jpg') }}" data-effect="mfp-zoom-in"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
                                                 </div>
                                                 <a href="#">View project<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
                                             </div>
@@ -737,7 +752,7 @@
                         <div class="col-12 col-md-6 col-lg-3">
                             <!-- Single gallery Item -->
                             <div class="portfolio_gallery_iteam">
-                                <img src="img/project-img/pro-6.jpg" alt="">
+                                <img src="{{ asset('img/project-img/pro-6.jpg') }}" alt="">
                                 <!-- single Content-->
                                 <div class="single_content">
                                     <div class="special-table">
@@ -757,7 +772,7 @@
                         <div class="col-12 col-md-6 col-lg-3">
                             <!-- Single gallery Item -->
                             <div class="portfolio_gallery_iteam">
-                                <img src="img/project-img/pro-3.jpg" alt="">
+                                <img src="{{ asset('theme/img/project-img/pro-3.jpg') }}" alt="">
                                 <!-- single Content-->
                                 <div class="single_content">
                                     <div class="special-table">
@@ -765,7 +780,7 @@
                                             <!-- Project Title-->
                                             <div class="project_title text-center">
                                                 <div class="image-popups">
-                                                    <a href="img/project-img/pro-3.jpg" data-effect="mfp-zoom-in"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                                                    <a href="{{ asset('theme/img/project-img/pro-3.jpg') }}" data-effect="mfp-zoom-in"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
                                                 </div>
                                                 <a href="#">View project<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
                                             </div>
@@ -777,7 +792,7 @@
                         <div class="col-12 col-md-6 col-lg-3">
                             <!-- Single gallery Item -->
                             <div class="portfolio_gallery_iteam">
-                                <img src="img/project-img/pro-5.jpg" alt="">
+                                <img src="{{ asset('img/project-img/pro-5.jpg') }}" alt="">
                                 <!-- single Content-->
                                 <div class="single_content">
                                     <div class="special-table">
@@ -785,7 +800,7 @@
                                             <!-- Project Title-->
                                             <div class="project_title text-center">
                                                 <div class="image-popups">
-                                                    <a href="img/project-img/pro-5.jpg" data-effect="mfp-zoom-in"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                                                    <a href="{{ asset('img/project-img/pro-5.jpg') }}" data-effect="mfp-zoom-in"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
                                                 </div>
                                                 <a href="#">View project<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
                                             </div>
@@ -805,17 +820,17 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> --}}
             <!-- ***** Project Area End ***** -->
         
             <!-- ***** Pricing Table Start ***** -->
-            <section class="our_price_table_area section_padding_150_100" id="price">
+            <section class="our_price_table_area section_padding_150_100" id="offices">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
                             <!-- Heading Text -->
                             <div class="section_heading">
-                                <h2>Price Table</h2>
+                                <h2>Registration Offices </h2>
                                 <div class="line"></div>
                                 <p>We are committed to providing our customers with exceptional service while offering our employees the best training.</p>
                             </div>
@@ -827,18 +842,15 @@
                             <!-- Pricing Plane -->
                             <div class="pricing-plan text-center wow fadeInUp" data-wow-delay="0.4s">
                                 <div class="pricing-head">
-                                    <h3>STARTER</h3>
-                                    <h2>FREE</h2>
+                                    <h3>Joint Sub-Registrar, Mumbai City - 1</h3>
+                                    {{-- <h2>FREE</h2> --}}
                                 </div>
                                 <!-- Pricing Body -->
                                 <div class="pricing-body">
                                     <ul>
-                                        <li>1 Project</li>
-                                        <li>Free Lifetime Updates</li>
-                                        <li>24/7 Support</li>
-                                        <li>SASS Files Included</li>
-                                        <li>Email Read Receipent</li>
-                                        <li>Well Documented</li>
+                                       <li> Ground Floor, Old Custom House, Shahid Bhagatsingh Marg, Near Horiman Circle, Near Central Library Fort,Mumbai 400001.
+
+                                        <li>
                                     </ul>
                                 </div>
                                 <!-- Pricing Footer -->
@@ -849,44 +861,15 @@
                         </div>
                         <div class="col-md-6 col-lg-4">
                             <!-- Pricing Plane -->
-                            <div class="pricing-plan active text-center wow fadeInUp" data-wow-delay="0.6s">
-                                <div class="pricing-head active">
-                                    <h3>STANDARD</h3>
-                                    <h2>$10<span>/month</span></h2>
-                                </div>
-                                <!-- Pricing Body -->
-                                <div class="pricing-body active">
-                                    <ul>
-                                        <li>1 Project</li>
-                                        <li>Free Lifetime Updates</li>
-                                        <li>24/7 Support</li>
-                                        <li>SASS Files Included</li>
-                                        <li>Email Read Receipent</li>
-                                        <li>Well Documented</li>
-                                    </ul>
-                                </div>
-                                <!-- Pricing Footer -->
-                                <div class="pricing-footer active">
-                                    <a href="#" class="green-btn white">Sign Up</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <!-- Pricing Plane -->
-                            <div class="pricing-plan text-center wow fadeInUp" data-wow-delay="0.8s">
+                            <div class="pricing-plan text-center wow fadeInUp" data-wow-delay="0.4s">
                                 <div class="pricing-head">
-                                    <h3>PREMIUM</h3>
-                                    <h2>$30<span>/month</span></h2>
+                                    <h3>Joint Sub-Registrar, Mumbai City - 2</h3>
+                                    {{-- <h2>FREE</h2> --}}
                                 </div>
                                 <!-- Pricing Body -->
                                 <div class="pricing-body">
                                     <ul>
-                                        <li>1 Project</li>
-                                        <li>Free Lifetime Updates</li>
-                                        <li>24/7 Support</li>
-                                        <li>SASS Files Included</li>
-                                        <li>Email Read Receipent</li>
-                                        <li>Well Documented</li>
+                                       <li> 1st Floor, Worli Telephone Exchange, Adarsh Nagar, Hatiskar Marg, Worli, Mumbai 400025.<li>
                                     </ul>
                                 </div>
                                 <!-- Pricing Footer -->
@@ -895,6 +878,28 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-md-6 col-lg-4">
+                            <!-- Pricing Plane -->
+                            <div class="pricing-plan text-center wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="pricing-head">
+                                    <h3>Joint Sub-Registrar, Mumbai City - 3</h3>
+                                    {{-- <h2>FREE</h2> --}}
+                                </div>
+                                <!-- Pricing Body -->
+                                <div class="pricing-body">
+                                    <ul>
+                                       <li> 1st Floor, Worli Telephone Exchange, Adarsh Nagar, Hatiskar Marg, Worli, Mumbai 400025.
+                                        <li>
+                                    </ul>
+                                </div>
+                                <!-- Pricing Footer -->
+                                <div class="pricing-footer">
+                                    <a href="#" class="green-btn">Sign Up</a>
+                                </div>
+                            </div>
+                        </div>
+                      
+                       
         
                     </div>
                 </div>
@@ -916,34 +921,35 @@
                     </div>
         
                     <div class="row justify-content-center">
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="single_team_content wow fadeInUp" data-wow-delay="0.8s">
-                                <!-- Image -->
-                                <div class="team_image">
-                                    <img src="img/team-img/team-3.jpg" alt="">
-        
-                                    <!-- Hover Effect -->
-                                    <div class="team_hover_effect">
-                                        <!-- Icon -->
-                                        <div class="team_icon">
-                                            <a href="#"><i class="fa fa-facebook" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Facebook"></i></a>
-                                            <a href="#"> <i class="fa fa-twitter" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Twitter"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Google-Plus"></i></a>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="single_team_content wow fadeInUp" data-wow-delay="1s">
+                                        <!-- Image -->
+                                        <div class="team_image">
+                                            <img src="{{ asset('theme/img/team-img/team-1.jpg') }}" alt="">
+                
+                                            <!-- Hover Effect -->
+                                            <div class="team_hover_effect">
+                                                <!-- Icon -->
+                                                <div class="team_icon">
+                                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Facebook"></i></a>
+                                                    <a href="#"> <i class="fa fa-twitter" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Twitter"></i></a>
+                                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Google-Plus"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Team Text -->
+                                        <div class="team_text">
+                                            <h5>Janson Sounders</h5>
+                                            <p>Developer</p>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Team Text -->
-                                <div class="team_text">
-                                    <h5>Sandra Sounders</h5>
-                                    <p>Developer</p>
-                                </div>
-                            </div>
-                        </div>
+                        
                         <div class="col-12 col-md-6 col-lg-4">
                             <div class="single_team_content wow fadeInUp" data-wow-delay="1s">
                                 <!-- Image -->
                                 <div class="team_image">
-                                    <img src="img/team-img/team-2.jpg" alt="">
+                                    <img src="{{ asset('theme/img/team-img/team-1.jpg') }}" alt="">
         
                                     <!-- Hover Effect -->
                                     <div class="team_hover_effect">
@@ -966,7 +972,7 @@
                             <div class="single_team_content wow fadeInUp" data-wow-delay="1.2s">
                                 <!-- Image -->
                                 <div class="team_image">
-                                    <img src="img/team-img/team-1.jpg" alt="">
+                                    <img src="{{ asset('theme/img/team-img/team-1.jpg') }}" alt="">
         
                                     <!-- Hover Effect -->
                                     <div class="team_hover_effect">
@@ -991,7 +997,7 @@
             <!-- ***** Our Team Area End ***** -->
         
             <!-- ***** Clients Words Area Start ***** -->
-            <section class="testimonials_area section_padding_150 bg-img clearfix" style="background-image: url(img/bg-img/bg-13.jpg);">
+            {{-- <section class="testimonials_area section_padding_150 bg-img clearfix" style="background-image: url(img/bg-img/bg-13.jpg);">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
@@ -1016,7 +1022,7 @@
                                     <div class="testimonial-description">
                                         <!-- Testimonial Image -->
                                         <div class="testimonial_image">
-                                            <img src="img/test-img/test-1.jpg" alt="">
+                                            <img src="{{ asset('theme/img/test-img/test-1.jpg') }}" alt="">
                                         </div>
                                         <div class="testimonial_text">
                                             <p>"Their team are easy to work with and helped me make amazing websites in a short amount of time. Thanks guys for all your hard work."</p>
@@ -1035,7 +1041,7 @@
                                     <div class="testimonial-description">
                                         <!-- Testimonial Image -->
                                         <div class="testimonial_image">
-                                            <img src="img/test-img/test-2.jpg" alt="">
+                                            <img src="{{ asset('img/test-img/test-2.jpg') }}" alt="">
                                         </div>
                                         <div class="testimonial_text">
                                             <p>"Their team are easy to work with and helped me make amazing websites in a short amount of time. Thanks guys for all your hard work."</p>
@@ -1054,7 +1060,7 @@
                                     <div class="testimonial-description">
                                         <!-- Testimonial Image -->
                                         <div class="testimonial_image">
-                                            <img src="img/test-img/test-1.jpg" alt="">
+                                            <img src="{{ asset('img/test-img/test-1.jpg') }}" alt="">
                                         </div>
                                         <div class="testimonial_text">
                                             <p>"Their team are easy to work with and helped me make amazing websites in a short amount of time. Thanks guys for all your hard work."</p>
@@ -1074,7 +1080,7 @@
                                     <div class="testimonial-description">
                                         <!-- Testimonial Image -->
                                         <div class="testimonial_image">
-                                            <img src="img/test-img/test-2.jpg" alt="">
+                                            <img src="{{ asset('theme/img/test-img/test-2.jpg') }}" alt="">
                                         </div>
                                         <div class="testimonial_text">
                                             <p>"Their team are easy to work with and helped me make amazing websites in a short amount of time. Thanks guys for all your hard work."</p>
@@ -1091,11 +1097,11 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> --}}
             <!-- ***** Clients Words Area End ***** -->
         
             <!-- ***** Our Blog Area Start ***** -->
-            <section class="our_blog_area section_padding_150_0 clearfix" id="blog">
+            {{-- <section class="our_blog_area section_padding_150_0 clearfix" id="blog">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
@@ -1113,7 +1119,7 @@
                     <!-- Thumb -->
                     <div class="blog_thumb">
                         <div class="image-hover-effect">
-                            <img src="img/blog-img/blog-1.jpg" alt="">
+                            <img src="{{ asset('theme/img/blog-img/blog-1.jpg') }}" alt="">
                         </div>
                     </div>
                     <!-- Single Content -->
@@ -1148,15 +1154,15 @@
                     <!-- Thumb -->
                     <div class="blog_thumb">
                         <div class="image-hover-effect">
-                            <img src="img/blog-img/blog-2.jpg" alt="">
+                            <img src="{{ asset('theme/img/blog-img/blog-2.jpg') }}" alt="">
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> --}}
             <!-- ***** Our Blog Area End ***** -->
         
             <!-- *****  Our partner Area Start *****  -->
-            <div class="our_partner_area section_padding_100 clearfix">
+            {{-- <div class="our_partner_area section_padding_100 clearfix">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-12">
@@ -1166,14 +1172,14 @@
                                     <!-- Partner Slides -->
                                     <div class="col-12">
                                         <div class="partners-slides owl-carousel">
-                                            <a href="#"><img src="img/partner-img/part-1.png" alt=""></a>
-                                            <a href="#"><img src="img/partner-img/part-2.png" alt=""></a>
-                                            <a href="#"><img src="img/partner-img/part-3.png" alt=""></a>
-                                            <a href="#"><img src="img/partner-img/part-4.png" alt=""></a>
-                                            <a href="#"><img src="img/partner-img/part-5.png" alt=""></a>
-                                            <a href="#"><img src="img/partner-img/part-6.png" alt=""></a>
-                                            <a href="#"><img src="img/partner-img/part-7.png" alt=""></a>
-                                            <a href="#"><img src="img/partner-img/part-8.png" alt=""></a>
+                                            <a href="#"><img src="{{ asset('theme/img/partner-img/part-1.png') }}" alt=""></a>
+                                            <a href="#"><img src="{{ asset('theme/img/partner-img/part-2.png') }}" alt=""></a>
+                                            <a href="#"><img src="{{ asset('theme/img/partner-img/part-3.png') }}" alt=""></a>
+                                            <a href="#"><img src="{{ asset('theme/img/partner-img/part-4.png') }}" alt=""></a>
+                                            <a href="#"><img src="{{ asset('theme/img/partner-img/part-5.png') }}"  alt=""></a>
+                                            <a href="#"><img src="{{ asset('theme/img/partner-img/part-6.png') }}"  alt=""></a>
+                                            <a href="#"><img src="{{ asset('theme/img/partner-img/part-7.png') }}" alt=""></a>
+                                            <a href="#"><img src="{{ asset('theme/img/partner-img/part-8.png') }}" alt=""></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1181,7 +1187,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
             <!-- *****  Our partner Area End *****  -->
         
             <!-- ***** Contact Area End *****  -->
