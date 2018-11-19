@@ -86,7 +86,7 @@
                         </div>
                         <div class="col-12 col-md-6 col-lg-4">
                             <!-- Single feature Content -->
-                            <div class="single_feature_content wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="single_feature_content active wow fadeInUp" data-wow-delay="0.6s">
                                 <!-- Feature Text -->
                                 <div class="feature_text">
                                     <h3>Step 2 : </h3>
@@ -100,9 +100,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="col-12 col-md-6 col-lg-4 active wow fadeInUp" data-wow-delay="0.8s">
                             <!-- Single feature Content -->
-                            <div class="single_feature_content">
+                            <div class="single_feature_content active">
                                 <!-- Feature Text -->
                                 <div class="feature_text">
                                     <h3>Step 3 : </h3>
@@ -116,9 +116,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="1s">
+                        <div class="col-12 col-md-6 col-lg-4 active wow fadeInUp" data-wow-delay="1s">
                             <!-- Single feature Content -->
-                            <div class="single_feature_content">
+                            <div class="single_feature_content active">
                                 <!-- Feature Text -->
                                 <div class="feature_text">
                                     <h3>Step 4 : </h3>
@@ -134,7 +134,7 @@
                         </div>
                         <div class="col-12 col-md-6 col-lg-4">
                             <!-- Single feature Content -->
-                            <div class="single_feature_content wow fadeInUp" data-wow-delay="1.2s">
+                            <div class="single_feature_content active wow fadeInUp" data-wow-delay="1.2s">
                                 <!-- Feature Text -->
                                 <div class="feature_text">
                                     <h3>Step 6 :</h3>
@@ -148,9 +148,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="1.4s">
+                        <div class="col-12 col-md-6 col-lg-4 active wow fadeInUp" data-wow-delay="1.4s">
                             <!-- Single feature Content -->
-                            <div class="single_feature_content">
+                            <div class="single_feature_content active">
                                 <!-- Feature Text -->
                                 <div class="feature_text">
                                     <h3>Step 7 :</h3>
