@@ -14,6 +14,7 @@
 
   <!-- Core Stylesheet -->
   <link href="{{ asset('theme/style.css') }}" rel="stylesheet">
+  <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
 
   <!-- Responsive CSS -->
   <link href="{{ asset('theme/css/plugins/responsive.css') }}" rel="stylesheet">
@@ -29,14 +30,14 @@
 		<!-- Preloader End -->
 	
 		<!-- ***** Header Area Start ***** -->
-		<header class="header-area">
+		<header class="header-area" style="margin-bottom:0%;padding-bottom:0%;">
 			<div class="classy-nav-container home-1 breakpoint-off">
 				<div class="container">
 					<!-- Classy Menu -->
 					<nav class="classy-navbar justify-content-between" id="classyNav">
 	
 						<!-- Logo -->
-						<a class="nav-brand" href="index.html">IGR</a>
+						<a class="nav-brand" href="index.html">Notice of Intimation</a>
 	
 						<!-- Navbar Toggler -->
 						<div class="classy-navbar-toggler">
@@ -58,7 +59,7 @@
 									<li><a href="#faq">FAQ</a></li>
 									<li><a href="#documents">Documents</a></li>
 									<li><a href="#process">Process</a></li>
-									<li><a href="#offices">Registration Offices</a></li>
+									{{-- <li><a href="#offices">Registration Offices</a></li> --}}
 									<li><a href="#contact">Contact</a></li>
 									
 								</ul>

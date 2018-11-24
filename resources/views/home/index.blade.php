@@ -3,18 +3,17 @@
 @section('content')
 
         <!-- ***** Wellcome Area Start ***** -->
-        <section class="welcome_area height-900 clearfix" id="home">
-                <canvas id="canvas-1"></canvas>
-                <div class="container h-100">
-                    <div class="row h-100 justify-content-center align-items-center">
-                        <div class="col-12 col-md-5">
+        <section class="welcome_area height-900 clearfix" id="home" style="padding-top: 0%">
+                <canvas id="canvas-1" style="padding-top: 0%"></canvas>
+                <div class="container h-100" style="padding-top: 0%">
+                    <div class="row h-100 justify-content-center align-items-center" style="padding-top: 0%">
+                        <div class="col-12 col-md-7" id="houseImage" style="padding-top: 0%">
                             <!-- Welcome Thumb -->
                             <div class="welcome_thumb wow fadeInUp" data-wow-delay="0.8s">
-                                <img src=" {{ asset('theme/img/bg-img/bg-1.png') }}" alt="">
+                                <img src=" {{ asset('img/key.jpg') }}" alt="">
                             </div>
                         </div>
-        
-                        <div class="col-12 col-md-7">
+                        <div class="col-12 col-md-5" id="showDetail">
                             <!-- Welcome Text -->
                             <div class="welcome_text">
                                 <h3>Exclusively for  <br>Mumbai , Navi Mumbai and Thane Region</h3>
@@ -137,7 +136,7 @@
                             <div class="single_feature_content active wow fadeInUp" data-wow-delay="1.2s">
                                 <!-- Feature Text -->
                                 <div class="feature_text">
-                                    <h3>Step 6 :</h3>
+                                    <h3>Step 5 :</h3>
                                     <!-- Icon -->
                                     <div class="feature_icon_text">
                                         <i class="fa fa-futbol-o" aria-hidden="true"></i>
@@ -153,7 +152,7 @@
                             <div class="single_feature_content active">
                                 <!-- Feature Text -->
                                 <div class="feature_text">
-                                    <h3>Step 7 :</h3>
+                                    <h3>Step 6 :</h3>
                                     <!-- Icon -->
                                     <div class="feature_icon_text">
                                         <i class="fa fa-futbol-o" aria-hidden="true"></i>
@@ -824,86 +823,7 @@
             <!-- ***** Project Area End ***** -->
         
             <!-- ***** Pricing Table Start ***** -->
-            <section class="our_price_table_area section_padding_150_100" id="offices">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <!-- Heading Text -->
-                            <div class="section_heading">
-                                <h2>Registration Offices </h2>
-                                <div class="line"></div>
-                                <p>We are committed to providing our customers with exceptional service while offering our employees the best training.</p>
-                            </div>
-                        </div>
-                    </div>
-        
-                    <div class="row justify-content-center">
-                        <div class="col-md-6 col-lg-4">
-                            <!-- Pricing Plane -->
-                            <div class="pricing-plan text-center wow fadeInUp" data-wow-delay="0.4s">
-                                <div class="pricing-head">
-                                    <h3>Joint Sub-Registrar, Mumbai City - 1</h3>
-                                    {{-- <h2>FREE</h2> --}}
-                                </div>
-                                <!-- Pricing Body -->
-                                <div class="pricing-body">
-                                    <ul>
-                                       <li> Ground Floor, Old Custom House, Shahid Bhagatsingh Marg, Near Horiman Circle, Near Central Library Fort,Mumbai 400001.
-
-                                        <li>
-                                    </ul>
-                                </div>
-                                <!-- Pricing Footer -->
-                                <div class="pricing-footer">
-                                    <a href="#" class="green-btn">Sign Up</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <!-- Pricing Plane -->
-                            <div class="pricing-plan text-center wow fadeInUp" data-wow-delay="0.4s">
-                                <div class="pricing-head">
-                                    <h3>Joint Sub-Registrar, Mumbai City - 2</h3>
-                                    {{-- <h2>FREE</h2> --}}
-                                </div>
-                                <!-- Pricing Body -->
-                                <div class="pricing-body">
-                                    <ul>
-                                       <li> 1st Floor, Worli Telephone Exchange, Adarsh Nagar, Hatiskar Marg, Worli, Mumbai 400025.<li>
-                                    </ul>
-                                </div>
-                                <!-- Pricing Footer -->
-                                <div class="pricing-footer">
-                                    <a href="#" class="green-btn">Sign Up</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <!-- Pricing Plane -->
-                            <div class="pricing-plan text-center wow fadeInUp" data-wow-delay="0.4s">
-                                <div class="pricing-head">
-                                    <h3>Joint Sub-Registrar, Mumbai City - 3</h3>
-                                    {{-- <h2>FREE</h2> --}}
-                                </div>
-                                <!-- Pricing Body -->
-                                <div class="pricing-body">
-                                    <ul>
-                                       <li> 1st Floor, Worli Telephone Exchange, Adarsh Nagar, Hatiskar Marg, Worli, Mumbai 400025.
-                                        <li>
-                                    </ul>
-                                </div>
-                                <!-- Pricing Footer -->
-                                <div class="pricing-footer">
-                                    <a href="#" class="green-btn">Sign Up</a>
-                                </div>
-                            </div>
-                        </div>
-                      
-                       
-        
-                    </div>
-                </div>
-            </section>
+            
             <!-- ***** Pricing Table End ***** -->
         
             <!-- ***** Our Team Area Start ***** -->
