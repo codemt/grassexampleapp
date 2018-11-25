@@ -17,7 +17,7 @@
                             <!-- Welcome Text -->
                             <div class="welcome_text">
                                 <h3>Exclusively for  <br>Mumbai , Navi Mumbai and Thane Region</h3>
-                                <p>Our expertise is in filing the Notice of Intimation for Equitable Mortgage in all the registration offices across Mumbai, Navi Mumbai & Thane with door step service in 3 working days*. </p>
+                                <p>E-filing of notice of intimation in case of mortgage by way of deposit of title deed came into effect on April 1, 2013. E-filing means online or electronic filing of notices of intimation of mortgage of property specified in Section 89B of the Registration Act, 1908. </p>
                                 <a href="#" class="green-btn">Get Started</a>
                             </div>
                         </div>
@@ -550,44 +550,58 @@
                         <div class="col-12 col-lg-6">
                             <!-- Single faq -->
                             <div class="single-faq wow fadeInUp" data-wow-delay="300ms">
-                                <h2>How to Shoping From Riyadh?</h2>
-                                <p>“Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior. While men’s borderline-inappropriate behavior. borderline-inappropriate behavior.</p>
+                                <h2>What is the time limit for filing of notice?</h2>
+                                <p>The notice should be filed within 30 days from the date of mortgage.</p>
                             </div>
                         </div>
                         <!-- Single faq -->
                         <div class="col-12 col-lg-6">
                             <div class="single-faq wow fadeInUp" data-wow-delay="350ms">
-                                <h2>How to Edit Your Website?</h2>
-                                <p>“Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior. While men’s borderline-inappropriate behavior. borderline-inappropriate behavior.</p>
+                                <h2>Can the time limit be extended in exceptional cases or otherwise?</h2>
+                                <p>No. As it is a legal provision and not an administrative order; the time limit can not be extended.</p>
                             </div>
                         </div>
                         <!-- Single faq -->
                         <div class="col-12 col-lg-6">
                             <div class="single-faq wow fadeInUp" data-wow-delay="400ms">
-                                <h2>Why You Choose Riyadh?</h2>
+                                <h2>What is the mode/process of filing?</h2>
                                 <p>“Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior. While men’s borderline-inappropriate behavior. borderline-inappropriate behavior.</p>
                             </div>
                         </div>
                         <!-- Single faq -->
                         <div class="col-12 col-lg-6">
                             <div class="single-faq wow fadeInUp" data-wow-delay="450ms">
-                                <h2>How to Collect Data From Riyadh?</h2>
-                                <p>“Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior. While men’s borderline-inappropriate behavior. borderline-inappropriate behavior.</p>
+                                <h2>Whether the days are fixed for physical filing?</h2>
+                                <p>The designated offices can accept the notice for filing on any working day in the working hours.</p>
                             </div>
                         </div>
                         <!-- Single faq -->
                         <div class="col-12 col-lg-6">
                             <div class="single-faq wow fadeInUp" data-wow-delay="500ms">
-                                <h2>How to Learn Graphic Design?</h2>
-                                <p>“Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior. While men’s borderline-inappropriate behavior. borderline-inappropriate behavior.</p>
+                                <h2>Where the notice has to be filed?</h2>
+                                <p>The notice has to be filed to the Sub Registrar office, within whose jurisdiction the property (of which the title deeds are deposited) is situated.</p>
                             </div>
                         </div>
                         <!-- Faq Content -->
                         <div class="col-12 col-lg-6">
                             <!-- Single faq -->
                             <div class="single-faq wow fadeInUp" data-wow-delay="550ms">
-                                <h2>How to Learn UI &amp; UX?</h2>
-                                <p>“Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior. While men’s borderline-inappropriate behavior. borderline-inappropriate behavior.</p>
+                                <h2>If the property is situated in the jurisdiction having more than one Sub Registrar offices, (like Mumbai City, Andheri Taluka, Haveli Taluka) can the filing be done in any office or there are some designated offices?</h2>
+                                <p>In such jurisdiction, the notice has to be filed in the designated offices only. The list of designated offices is enclosed herewith.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <!-- Single faq -->
+                            <div class="single-faq wow fadeInUp" data-wow-delay="550ms">
+                                <h2> About Stamp Duty?</h2>
+                                <p>The Stamp Duty is chargeable as per Article 6 of the Maharashtra Stamp Act 1958,.i,e. @ 0.1% if the Loan amount is Rs 500000/- or below, and @ 0.2% if the Loan amount is Rs above Rs.500000/-. If the stamp duty as above is paid on any other document like Memorandum or agreement for same loan transaction then Stamp Duty of Rs 100/- has to be paid on the notice</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <!-- Single faq -->
+                            <div class="single-faq wow fadeInUp" data-wow-delay="550ms">
+                                <h2>  Filing Charges & other miscellaneous charges?</h2>
+                                <p>The filing fee is Rs 1000/- irrespective of the Loan amount. In case of physical filing only (and not in the case of on line filing), the document handling charges of Rs 300/- has to be paid.</p>
                             </div>
                         </div>
                     </div>
