@@ -18,7 +18,7 @@
                             <div class="welcome_text">
                                 <h3>Exclusively for  <br>Mumbai , Navi Mumbai and Thane Region</h3>
                                 <p>E-filing of notice of intimation in case of mortgage by way of deposit of title deed came into effect on April 1, 2013. E-filing means online or electronic filing of notices of intimation of mortgage of property specified in Section 89B of the Registration Act, 1908. </p>
-                                <a href="#" class="green-btn">Get Started</a>
+                                <a href="#contact" class="green-btn">Contact us to Know More</a>
                             </div>
                         </div>
                     </div>
@@ -1132,7 +1132,14 @@
                             <!-- Heading Text -->
                             <div class="scetion_heading">
                                 <h2>Contact Us</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. </p>
+                                <p> 
+                                        @if(session('Status'))
+                                        <p> Message is Sent </p>         
+                                      @endif
+                                    
+                                    Please send us your details and we will get back to you.
+                            
+                            </p>
                             </div>
                         </div>
                     </div>
@@ -1142,7 +1149,9 @@
                             <!-- Contact Form -->
                             <div class="contact_from_area clearfix">
                                 <div class="contact_form">
-                                    <form action="mail.php" method="post" id="main_contact_form">
+                                      
+                                    <form action="{{ route('send.message') }}" method="post">
+                                        {{ csrf_field() }}
                                         <div class="contact_input_area">
                                             <div id="success_fail_info"></div>
                                             <div class="row">
@@ -1159,13 +1168,23 @@
                                                         <input type="email" class="form-control" name="email" id="email" placeholder="E-mail" required>
                                                     </div>
                                                 </div>
-        
-                                                <!-- Form Group -->
                                                 <div class="col-12">
-                                                    <div class="form-group">
-                                                        <textarea name="message" class="form-control" id="message" cols="30" rows="8" placeholder="Your Message *" required></textarea>
-                                                    </div>
+                                                        <div class="form-group">
+                                                            <input type="numeric" class="form-control" name="mobile" id="mobile" placeholder="Enter Contact no." required>
+                                                        </div>
                                                 </div>
+                                                {{-- <div class="col-12">
+                                                        <div class="form-group">
+                                                            <input type="text" class="form-control" name="message_body" id="message" placeholder="Your Message " required>
+                                                        </div>
+                                                </div> --}}
+                                               
+                                                <!-- Form Group -->
+                                                  <div class="col-12">
+                                                    <div class="form-group">
+                                                        <textarea name="message_body" class="form-control" id="message_body" cols="30" rows="8" placeholder="Your Message *" required></textarea>
+                                                    </div>
+                                                </div> 
                                                 
                                                 <!-- Button -->
                                                 <div class="col-12">
@@ -1185,19 +1204,19 @@
                                     <div class="contact_info">
                                         <i class="fa fa-thumb-tack" aria-hidden="true"></i>
                                         <h5>Location</h5>
-                                        <p>Aox street, newyork</p>
+                                        <p>Vikhroli East</p>
                                     </div>
                                     <!-- Content Info -->
                                     <div class="contact_info">
                                         <i class="fa fa-envelope-o" aria-hidden="true"></i>
                                         <h5>E-mail</h5>
-                                        <p>example@example.com</p>
+                                        <p>venkateshkonar0307@gmail.com</p>
                                     </div>
                                     <!-- Content Info -->
                                     <div class="contact_info">
                                         <i class="fa fa-mobile" aria-hidden="true"></i>
                                         <h5>Phone</h5>
-                                        <p>+888 0221 2568</p>
+                                        <p>‭+91 77384 38334‬</p>
                                     </div>
                                     <!-- Icon -->
                                     <div class="footer_social_icon">

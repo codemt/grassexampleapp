@@ -13,3 +13,4 @@
 
 
 Route::get('/','HomeController@index')->name('index');
+Route::post('/send/message','HomeController@sendMessage')->name('send.message');
